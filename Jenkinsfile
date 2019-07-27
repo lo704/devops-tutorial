@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("lo704/edureka-jenkins-build")
+        app = docker.build("lo704/edureka")
     }
 
     stage('Test image') {
